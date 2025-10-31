@@ -14,5 +14,5 @@ while running:
             pygame.quit()
     screen.fill(bgColor)
     pygame.draw.rect(screen,b,pygame.Rect(150,200,250,200),0)
-    pygame.draw.rect(screen,b,pygame.Rect(450,500,250,200),1)
+    pygame.draw.rect(screen,b,pygame.Rect(450,200,250,200),1)
     pygame.display.flip()
